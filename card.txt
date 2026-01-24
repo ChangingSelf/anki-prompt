@@ -1,0 +1,19 @@
+{
+  "params": {
+    "deckName": "Java",
+    "modelName": "Basic",
+    "fields": {
+      "Front": "什么是哈希碰撞（hash collision）？为什么两个对象的hashCode值相等，它们不一定相等？",
+      "Back": "<div style=\"color:#1a73e8;font-size:1.1em\"><b>哈希碰撞指不同对象通过哈希算法得到相同hashCode值的情况</b></div>\n<br>\n由于哈希算法将无限可能的数据映射到有限的哈希值范围内，必然存在不同对象产生相同哈希值的情况，这就是哈希碰撞。因此hashCode相等只能作为快速筛选的条件，不能作为最终判断依据。\n<br><br>\n<span style=\"color:#666;font-size:0.9em\">💡 助记：就像不同书籍可能被分到图书馆同一个书架号（hashCode），但书的内容（equals）并不相同</span>"
+    },
+    "tags": [
+      "hashCode",
+      "哈希碰撞",
+      "算法"
+    ]
+  },
+  "response": {
+    "content": [],
+    "toolResult": "Created note with the following ID: 1769268040488"
+  }
+}
